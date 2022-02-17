@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Login Form</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="form"><div>
+			<img src="coverpic1.jpg" alt="The LNMIIT" style="width:668px;height:180px;margin-left:-25px;margin-top:-26px;box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);"></img>
+	  </div>
+      <h1 style="margin-top:8px; margin-bottom:5px;">The LNM Institute Of Information Technology</h1>
+      <ul class="tab-group">
+        <li class="tab"><a href="#signup">Sign Up</a></li>
+        <li class="tab active"><a href="#login">Log In</a></li>
+      </ul>
+
+      <div class="tab-content">
+          
+          <div id="login">   
+          <h1>Welcome Back!</h1>
+
+          <form action="login" method="post">
+
+            <div class="field-wrap">
+            <label>
+              Application Id<span class="req">*</span>
+            </label>
+            <input type="text" name="appid" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password" name="password" required autocomplete="off" />
+         
+          </div>
+              <div>
+                  <center>Invalid Username/Password</center>
+              </div>
+              <br/>
+          <button class="button button-block"/>Log In</button>
+
+          </form>
+
+        </div>
+          
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+
+          <form action="Register.jsp" method="post">
+
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" name="fname" required autocomplete="off" />
+            </div>
+
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text" name="lname" required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email" name="email" required autocomplete="off"/>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Mobile No.<span class="req">*</span>
+            </label>
+            <input type="number" name="mobno" min="1111111111" max="9999999999"/>
+          </div>
+		  
+          <button type="submit" class="button button-block"/>Register</button>
+
+          </form>
+
+        </div>
+
+        
+
+      </div><!-- tab-content -->
+
+</div> <!-- /form -->
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

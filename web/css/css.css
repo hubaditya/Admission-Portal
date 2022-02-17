@@ -1,0 +1,131 @@
+/*-------------------------------------------------------
+---------------------- STYLES------------------
+-------------------------------------------------------*/
+/**{ margin: 0px;	padding: 0px;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;line-height:0px; font-size:0px;}
+ div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, label, select, textarea, p, blockquote, table, tr, th, td, embed, object, ul, li 
+				{margin:0; padding:0;}*/
+body {background:#f7f7f7; padding:0px; padding-top:0px; margin:0px;}
+table {	border-collapse:collapse; border-spacing:0;}
+fieldset, img, abbr {border:0;}
+address, caption, cite, code, dfn, em, h1, h2, h3, h4, h5, h6, strong, th, var {font-style:normal;font-weight:normal;}
+li{padding:0px; margin:0px; list-style:none;}
+ol,ul {list-style:none; padding:0px;}
+input,select,textarea {font-size:12px;line-height:14px;font-family:Arial, Helvetica, sans-serif; 
+                       vertical-align:middle; margin-left:10px; margin-top:-3px;}
+caption, th {text-align:center;}
+hr{padding:0px; margin:0px;}
+img{border:0px; padding:0px; margin:0px;}
+strong {font-weight: bold;}
+cite {display: block;font-size: 0.9em;	font-style: italic;	text-align: right;}
+h1{font-size:17px;line-height:28px; font-weight:normal; font-family:tahoma;letter-spacing:2px;}
+h2{font-size:17px;line-height:28px;font-weight:normal; font-family:tahoma;letter-spacing:2px;}
+h3{font-size:13px;line-height:24px;font-weight:normal; font-family:tahoma;letter-spacing:2px;font-weight:bold;}
+h4{font-size:13px;line-height:15px;}
+h5{font-size:11px;line-height:13px;}
+h6{font-size:10px;line-height:12px;}
+p {font-family:Arial, Helvetica, sans-serif;	font-size: 12px; color: #555; padding:0px; margin:0px; line-height:normal;}
+a{color:inherit; text-decoration:none;}
+a:hover{text-decoration:none;}
+/*----------------------------------------------------------
+------------------- CUSTOM ------------------------------
+----------------------------------------------------------*/
+.clear{clear:both;}
+.input{border:1px solid #ccc; padding:2px }
+.page-break,.print-only{display:none;}
+.point{cursor:pointer;}
+.floatleft{float:left; width:auto;}
+.floatright{float:right; width:auto;}
+.alignleft{ text-align:left;}
+.alignright{ text-align:right;}
+.center{ text-align:center;}
+.relative{position:relative;}
+.col1,.col2,.col3,.block1,.block2{ float:left; width:auto;}
+.col01,.col02,.col03{ float:left; width:auto;}
+
+ /*----------------------------------------------------------
+-------------------HEADER ------------------------------
+----------------------------------------------------------*/
+#header_bg { background:url(../images/header_bg.jpg) left top repeat-x; max-height:103px; height:103px; width:100%;}
+#header_bg .logo{ width:415px; margin-left:15px; height:103px; }
+#header_bg .login {width:300px; height:83px; padding-top:15px; margin-right:15px;}
+#header_bg .login_section {width:300px; height:80px;}
+#header_bg .login_section_bg_sape01 {background: url(../images/download2.jpg) left top no-repeat; width:9px; height:80px;}
+#header_bg .login_section_bg_sape02 {background: url(../images/download2.jpg) right top no-repeat; width:9px;  height:80px;}
+#header_bg .login_section_bg_center {background: url(../images/menu2_center.png) left top repeat-x; margin-left:9px; margin-right:9px;}
+#header_bg .login_section_link {margin-left:9px; margin-right:9px; height:17px;  margin-top:7px; text-align:center;}
+#header_bg .login_section_link_icon { width:20px; height:17px;}
+#header_bg .login_section_link_space { width:5px;}
+#header_bg .login_section_link_text { width:70px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#ffffff; line-height:17px; text-align:left; text-indent:8px;}
+#header_bg .login_section_link_text a {color:#ffffff; text-decoration:none; margin-left:-9px;}
+#header_bg .login_section_link_text a:hover {color:#ffffff; text-decoration:none;}
+
+#header_bg .login_section_bg_center .welcome_img {width:45px; margin-top:15px;}
+#header_bg .login_section_bg_center .wleocme_title { margin-left:45px; padding-top:15px;}
+#header_bg .login_section_bg_center .wleocme_title, .welcome_title_text {font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#c1e055; line-height:33px; font-weight:bold;}
+#header_bg .login_section_bg_center, span.light_text { color:#b9e1ff;}
+ 
+ /*----------------------------------------------------------
+-------------------MIDDLE SECTION ------------------------------
+----------------------------------------------------------*/
+#middle { width:100%;}
+
+#left_section {
+	width:187px;
+	background: url(../images/left_navigation_bg.jpg) left top repeat-y;
+	height:700px;
+	/*margin-left:-805px;*/
+}
+#left_section .left_title_text {
+ height:77px;
+ /*font-family: Verdana, Arial, Helvetica, sans-serif;*/ 
+ font-size:20px; color:#ffffff; line-height:77px; font-weight:600; text-indent:20px;}
+
+ 
+/* START Left Side/Navigation Elements */	
+	
+#leftside {width: 225px; background: #525252 url(../img/bg_leftside.png) repeat-x top; position: absolute; top: 70px; border-right:1px solid #fff; padding-top: 10px;}
+.user, .notifications {width:195px; padding: 15px; color: #ccc; overflow: auto; text-shadow: 1px 1px 1px #111; background: url(../img/bg_left_spacer.png) repeat-x bottom;}
+.user img {float: left; margin: 5px 15px 10px 0;}
+.username {color: #fff; font-size: 18px; font-weight:700; letter-spacing: -1px; padding-bottom: 5px;}
+.userbtn {text-shadow: none; float: left; padding-right: 5px; text-align: center;}
+.userbtn a {display: block; color: #000; text-shadow: 1px 1px 1px #eee; font-size: 11px; width: 58px; background: #ccc url(../img/bg_btn_grey_sml.png) repeat-x top; border: 1px solid #000; padding: 2px 0; text-decoration: none; border-radius: 5px; -moz-border-radius: 5px;}
+.userbtn a:hover {color: #fff; background: #eee url(../img/bg_btn_grey_sml.png) 0 -30px; text-shadow: none;}
+
+.notifications a {text-decoration: none; font-weight: 700; color: #fff;}
+.notifycount {float: left; width: 35px; height: 35px; text-align: center; font-size: 18px;  display: block; line-height: 1.6em; margin-right: 10px; letter-spacing: -1px;}
+
+#nav {position: absolute;}
+ul.navigation {width: 225px; color: #fff;}
+ul.navigation li a {text-shadow: 1px 1px 1px #222; background: url(../images/bg_navigation_link.jpg) left top repeat-x; outline: none; width:166px; display: block; color: #fff; text-decoration: none; padding-left:20px; height:32px; line-height:32px; font-family:Arial, Helvetica, sans-serif; font-size:12PX;}
+ul.navigation li a:hover {color: #ccc; background: #333;}
+
+ul#nav li a.heading, a.collapsed, a.expanded, ul.navigation li.selected{line-height: 1.2em; width: 200px; font-size: 16px; font-weight: 700; padding: 9px 10px; display: block; color: #fff; cursor: pointer;}
+ul.navigation li.selected {width:215px; z-index: 2; position: relative; padding: 10px;}
+/* END Left Side/Navigation Elements */	
+
+
+#right_section { margin-left:230px; height:500px; color:#009900; padding-right:15px;}
+#right_section .right_navbg { background:url(../images/right_navigation_bg.jpg) left top repeat; height:35px;  -webkit-border-radius:0px 0px 8px 8px;-moz-border-radius:0px 0px 8px 8px; -moz-box-shadow: 0px 1px 1px 0px #cdcdcd;-webkit-box-shadow: 0px 1px 1px 0px #cdcdcd; padding:15px; border:solid 1px #b0b0b0; border-top:none;}
+#right_section .right_navbg .navi_but { background:url(../images/right_navigation_button.jpg) left top repeat-x; 
+									max-width:140px; max-height:31px; height:31px; 
+									font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; 
+									line-height:31px; text-align:center; width:115px; line-height:31px; 
+									border:solid #c0c0c0 1px;  -webkit-border-radius:4px;-moz-border-radius:4px; }
+#right_section .right_navbg .navi_but a { color:#333333; text-decoration:none;}
+#right_section .right_navbg .navi_but a:hover { color:#0c6bb2; text-decoration:none;}
+
+#right_section .right_navbg .but_space {width:15px; height:31px; }
+#right_section .right_navbg .but_with {width:70px;}
+#right_section .right_navbg .but_with_img { height:22px; text-indent:08px; padding-top:9px; padding-right:3px;}
+
+#right_section .welcome {  -webkit-border-radius:8px 8px 8px 8px;-moz-border-radius:8px 8px 8px 8px;  border:solid 1px #c4c4c4; background:#FFFFFF; margin-top:-15px; padding-bottom:5px;margin-left:-19px;}
+#right_section .welcome .title_black_bg { background:url(../images/welcome_title_bg.jpg) left top repeat-x; height:31px; -webkit-border-radius:8px 8px 0px 0px;-moz-border-radius:8px 8px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#ffffff; line-height:30px; text-indent:15px; font-weight:600;margin-left:-1px;margin-top:0px;}
+#right_section .welcome .title_blue_bg { background: url(../images/welcome_title_blue_bg.jpg) left top repeat-x; height:31px; -webkit-border-radius:8px 8px 0px 0px;-moz-border-radius:8px 8px 0px 0px; font-family:Arial, Helvetica, sans-serif; font-size:15px; color:#ffffff; line-height:30px; text-indent:15px; font-weight:600;}
+
+#right_section .welcome .massage_box { margin:15px; color:#666666; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px; }
+#right_section  .blue_text { color:#004c7a;}
+#right_section  .red_text { color:#e10000;}
+#right_section  .green_text { color:#008000;}
+#right_section .black_text { color:#333333;}
+#right_section .footer{ background:url(../images/footer_line.jpg) left top repeat-x; margin-top:15px; padding-top:10px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#666666;}
